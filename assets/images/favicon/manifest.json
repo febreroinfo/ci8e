@@ -1,0 +1,23 @@
+{
+    "name": "cide.js",
+    "short_name": "cide.js",
+    "description": "Identify and eliminate CSS layout problems.",
+    "start_url": "/cide/index.html",
+    "scope": "/cide/index.html",
+    "icons": [
+        {
+            "src": "icon-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "icon-512x512.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "any maskable"
+        }
+    ],
+    "theme_color": "#9E321A",
+    "background_color": "#9E321A",
+    "display": "standalone"
+}

@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>cide.js</title>
+<meta name="description" content="Identify and eliminate CSS layout problems."/>
+<meta name="keywords" content="Jose Febrero, Debug, CSS Layout, Tool, Cide, cide.js, cidejs"/>
+<meta name="theme-color" content="#9E321A"/>
+<meta property="og:site_name" content="cide.js"/>
+<meta property="og:title" content="cide.js"/>
+<meta property="og:type" content="website"/>
+<meta property="og:url" content="https://github.com/febreroinfo/"/>
+<meta property="og:description" content="Identify and eliminate CSS layout problems."/>
+<meta property="og:image" content="./assets/images/cide.png"/>
+<link rel="icon" href="./assets/images/favicon/favicon.ico" sizes="16x16"/>
+<link rel="icon" type="image/svg+xml" href="./assets/images/favicon/favicon.svg"/>
+<link rel="apple-touch-icon" href="./assets/images/favicon/apple-touch-icon.png"/>
+<link rel="manifest" href="./assets/images/favicon/manifest.json"/>
+<link rel="stylesheet" href="./assets/styles/main.min.css"/></head>
+<body>
+<header class="navbar">
+<a href="#home" aria-label="Skip to Content" class="skip">Skip to Content</a>
+<a href="/" target="_self" title="home">
+<span class="logo">
+<img src="./assets/images/svg/cide.svg" width="72" height="41" alt="Cide"/></span></a>
+<nav>
+<a href="#what">What</a>
+<a href="#why">Why</a>
+<a href="#how">How</a></nav></header>
+<main class="content">
+<section id="home" class="content__item">
+<article>
+<div class="content__half">
+<div class="content__group">
+<h1 class="content__headline">Identify and eliminate your CSS layout bugs</h1>
+<span>Why spend time when you don't have to?</span>
+<a href="#how" class="content__action">Get Cide.js</a></div>
+<div class="content__group">
+<figure class="preview">
+<img sizes="(min-width: 1160px) 520px, (min-width: 580px) 45.71vw, calc(96.92vw - 23px)" srset="cide_outline_pgt5jk_c_scale,w_200.webp 200w, cide_outline_pgt5jk_c_scale,w_1040.webp 1040w" src="./assets/images/hero/cide_outline_pgt5jk_c_scale,w_520.webp" width="520" height="405" alt="Outlined" class="preview__default"/>
+<img sizes="(min-width: 1160px) 520px, (min-width: 580px) 45.71vw, calc(96.92vw - 23px)" srset="cide_shadow_ny2zge_c_scale,w_200.webp 200w, cide_shadow_ny2zge_c_scale,w_1040.webp 1040w" src="./assets/images/hero/cide_shadow_ny2zge_c_scale,w_520.webp" width="520" height="405" alt="Outlined and with Shadow" class="preview__hover"/></figure></div></div></article></section>
+<section id="what" class="content__item">
+<article>
+<div class="content__full">
+<h2>What is it?</h2>
+<p>A tool that assists with project layout problems. It is a fork of
+<a href="https://github.com/mrmrs/pesticide" target="_blank" rel="noopener noreferrer">Pesticide</a>&nbsp;that I found useful in my development. I extended the functionality to be keyboard key press activated with the options to toggle between the standard outline option or the enhanced option with box shadow to show element depth on hover.</p></div></article></section>
+<section id="why" class="content__item">
+<article>
+<h2>Why use it?</h2>
+<p>Sometimes you need to tell elements apart to identify what's causing the layout issue. This is where this tool comes in and shines.</p>
+<div class="content__half">
+<div class="content__group">
+<div class="content__title">
+<span>
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" class="content__icon">
+<path d="M0 0h24v24H0z" fill="none" stroke="none"></path>
+<path d="M3 12a9 9 0 1 0 18 0a9 9 0 0 0 -18 0" class="icon__active"></path>
+<path d="M12 7v5l3 3" class="icon__active"></path></svg></span>
+<h3>Time saver</h3></div>
+<p>Saves time by limiting the need to click around the browser DevTools to identify issues. The tool outlines every page element and helps tell each piece apart.</p></div>
+<div class="content__group">
+<div class="content__title">
+<span>
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" class="content__icon">
+<path d="M0 0h24v24H0z" fill="none" stroke="none"></path>
+<path d="M19 14.083c0 4.154 -2.966 6.74 -7 6.917c-4.2 0 -7 -2.763 -7 -6.917c0 -5.538 3.5 -11.09 7 -11.083c3.5 .007 7 5.545 7 11.083z" class="icon__active"></path>
+<path d="M12 3l-1.5 5l3.5 2.5l-2 3.5" class="icon__active"></path></svg></span>
+<h3>Nondestructive</h3></div>
+<p>Nondestructive since the script inserts the debugging style into the current page dynamically. Once the project is cleared for Production, the one-line script tag can be removed.</p></div>
+<div class="content__group">
+<div class="content__title">
+<span>
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" class="content__icon">
+<path d="M0 0h24v24H0z" fill="none" stroke="none"></path>
+<path d="M12 18l.01 0" class="icon__active"></path>
+<path d="M9.172 15.172a4 4 0 0 1 5.656 0" class="icon__active"></path>
+<path d="M6.343 12.343a7.963 7.963 0 0 1 3.864 -2.14m4.163 .155a7.965 7.965 0 0 1 3.287 2" class="icon__active"></path>
+<path d="M3.515 9.515a12 12 0 0 1 3.544 -2.455m3.101 -.92a12 12 0 0 1 10.325 3.374" class="icon__active"></path>
+<path d="M3 3l18 18" class="icon__active"></path></svg></span>
+<h3>Offline friendly</h3></div>
+<p>The script is standalone and therefore can be used offline without needing to be connected online. Perfect for offline development.</p></div></div></article></section>
+<section id="how" class="content__item">
+<article>
+<div class="content__full">
+<h2>How to use it?</h2>
+<h3>Quick Usage</h3>
+<p class="bookmarklet__description">Drag this link to your bookmarks or right click and bookmark it.</p>
+<a id="cide" href="#" onclick="alert(this.nextElementSibling.textContent); return false;" class="bookmarklet__link">cide.js</a>
+<p class="bookmarklet__alert">Drag this link to your bookmarks or right click and bookmark it.</p>
+<p>Copy and paste the script below and add it to your project or platform that allows external script files.</p>
+<pre>
+<code>
+<span><</span>
+<span>script</span>
+<span class="code__attribute">&nbsp;src</span>
+<span>=</span>
+<span>"https://cdn.jsdelivr.net/npm/cite@1.0.0/public/script/cite.min.js"</span>
+<span class="code__attribute">&nbsp;integrity</span>
+<span>=</span>
+<span>"www.srihash.org"</span>
+<span class="code__attribute">&nbsp;crossorigin</span>
+<span>=</span>
+<span>"anonymous"</span>
+<span>></span>
+<span><</span>
+<span>/</span>
+<span>script</span>
+<span>></span></code>
+<button title="Copy to Clipboard" class="content__clip">Copy</button></pre>
+<h3>Offline Usage</h3>
+<p>Click the button below to download the JavaScript file to add to your project locally.</p>
+<a id="download" href="/" download="cide.min.js" class="content__download">Download Script</a>
+<h3>Option Controls</h3>
+<p>Use the following keyboard combination to activate and deactivate the tool.</p>
+<p>Focus on page then,&nbsp;
+<kbd>Ctrl</kbd>&nbsp;+ mouseover &nbsp;or
+<kbd>Cmd</kbd>&nbsp;+ mouseover
+<span>to display element attributes</span></p>
+<p>Focus on page then,&nbsp;
+<kbd>Ctrl</kbd>&nbsp;+
+<kbd>~</kbd>&nbsp;or
+<kbd>Cmd</kbd>&nbsp;+
+<kbd>~</kbd>
+<span>to enable Outline option</span></p>
+<p>Focus on page then,&nbsp;
+<kbd>Ctrl</kbd>&nbsp;+
+<kbd>1</kbd>&nbsp;or
+<kbd>Cmd</kbd>&nbsp;+
+<kbd>1</kbd>
+<span>to enable Outline and Box Shadow option</span></p>
+<p>Focus on page then,&nbsp;
+<kbd>Ctrl</kbd>&nbsp;+
+<kbd>2</kbd>&nbsp;or
+<kbd>Cmd</kbd>&nbsp;+
+<kbd>2</kbd>
+<span>to disable any active option</span></p>
+<p>Alternatively,</p>
+<p>
+<kbd>Ctrl</kbd>&nbsp;+ Previous Key option Pressed or
+<kbd>Cmd</kbd>&nbsp;+ Previous Key option Pressed
+<span>to disable the active option</span></p></div></article></section></main>
+<footer>
+<p>
+<span>Made with&nbsp;</span>
+<span>
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" class="footer__icon">
+<path d="M0 0h24v24H0z" fill="none" stroke="none"></path>
+<path d="M19.5 12.572l-7.5 7.428l-7.5 -7.428a5 5 0 1 1 7.5 -6.566a5 5 0 1 1 7.5 6.572" class="icon__active"></path>
+<path d="M12 6l-3.293 3.293a1 1 0 0 0 0 1.414l.543 .543c.69 .69 1.81 .69 2.5 0l1 -1a3.182 3.182 0 0 1 4.5 0l2.25 2.25" class="icon__active"></path>
+<path d="M12.5 15.5l2 2" class="icon__active"></path>
+<path d="M15 13l2 2" class="icon__active"></path></svg></span>
+<span>&nbsp;by FebreroInfo. 2023</span></p>
+<ul>
+<li>
+<a href="https://github.com/febreroinfo" target="_blank" rel="noopener noreferrer">Github</a></li>
+<li>
+<a href="https://codepen.io/febreroinfo" target="_blank" rel="noopener noreferrer">Codepen</a></li>
+<li>
+<a id="email" href="#" data-email="false" tabindex="0">Contact</a></li></ul>
+<figure id="status" data-open="false" aria-label="Network Status" class="network">
+<span id="online" data-open="false" class="network__online">Hurray! Internet is back online.</span>
+<span id="offline" data-open="false" class="network__offline">Opps! Internet is offline.</span></figure></footer></body>
+<script defer=" " src="./assets/scripts/main.min.js"></script>
+<script defer=" " src="./dist/cide.min.js"></script></html>
