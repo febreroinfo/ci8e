@@ -20,9 +20,9 @@ Choose the most effective solution for your use case below.
 
 Drag the bookmarklet link from the info page to your bookmarks or right click and bookmark it.
 
-Copy and paste the script below and add it to your project or platform that allows external script files.
+Copy and paste the script below and add it to your project or platform that allows external script files (SRI by www.srihash.org).
 
-    <script src="https://cdn.jsdelivr.net/npm/cite@1.0.0/public/script/cite.min.js" integrity ="www.srihash.org" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/gh/febreroinfo/cide@latest/dist/cide.min.js" integrity ="sha384-q473CwQ2Y1lBY0lVKie/lXUEygSgvmw93sF589RGTJI6RO+pMAZxxpzymyh7Uuzn" crossorigin="anonymous"></script>
 
 ### Offline Usage
 
